@@ -1,0 +1,23 @@
+{
+  "name": "posts_postman_colection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tst:cli":"npx newman run Posts.postman_collection.json",
+    "tst:r_html":"npx newman run Posts.postman_collection.json -r htmlextra ",
+    "tst:r_json":"npx newman run Posts.postman_collection.json -r json"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeileBag/Posts_test2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeileBag/Posts_test2/issues"
+  },
+  "homepage": "https://github.com/MeileBag/Posts_test2#readme",
+  "description": ""
+}
